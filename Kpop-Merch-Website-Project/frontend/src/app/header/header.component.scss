@@ -195,12 +195,13 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      color: white;
       > button {
         margin-bottom: 8px;
         height: 44px;
         width: 236px;
         flex-grow: 1;
-        border: 1px solid #ccc;
+        border: 1px solid white;
         background: transparent;
       }
     }
