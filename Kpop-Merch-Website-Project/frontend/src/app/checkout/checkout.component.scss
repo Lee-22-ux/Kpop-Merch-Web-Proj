@@ -10,7 +10,8 @@
     width: 100%;
   }
   .billing-container {
-    background-color: bisque;
+    background-color: white;
+    margin-top: 3px;
     > h2 {
       margin-bottom: 16px;
     }
@@ -34,7 +35,8 @@
   }
   // Second step
   .payment-container {
-    background-color: bisque;
+    background-color: white;
+    margin-top: 3px;
     > h2 {
       margin-bottom: 16px;
     }
@@ -63,7 +65,8 @@
   }
   // Third step
   .summary-container {
-    background-color: bisque;
+    background-color: white;
+    margin-top: 3px;
     &__order {
       > h2 {
         margin-bottom: 16px;
@@ -115,7 +118,8 @@
     }
   }
   .confirmation-container {
-    background-color: bisque;
+    background-color: white;
+    margin-top: 3px;
     text-align: center;
     > header {
       padding-bottom: 40px;
