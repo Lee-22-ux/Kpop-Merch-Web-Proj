@@ -178,11 +178,13 @@
       > ul {
         > li {
           outline: none;
+          font-weight: bold;
           padding: 8px 0 8px 24px;
           margin-bottom: 12px;
           cursor: pointer;
           transition: background-color 0.2s;
           &:hover {
+            font-weight: bold;
             color: black;
             background-color: pink;
           }
