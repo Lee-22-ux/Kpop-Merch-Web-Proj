@@ -1,8 +1,21 @@
+<body>
+
+
+
+  <div class="img-login">
+  <img src="../../../../assets/light-stick-bg.png" 
+   style="background-color:black; width:375px;">
+
+   
+</div>
+
+
 <div class="login-container">
-  <div class="form-container">
-    <h1>Sign In</h1>
-    <br>
-    <h2>Kpop Merchandise Online Shop</h2>
+  <div class="img-logo">
+    <img src="../../../../assets/k-merch-logo.png" class="logo">
+  </div>
+<div class="form-container" style="border:1px solid black; background-color:black; ">
+    <h2 style="color:white; padding:1px; margin-top: 15px;" >Sign In</h2>
     <nz-alert
       *ngIf="error"
       nzShowIcon
@@ -19,6 +32,7 @@
           name="email"
           placeholder="Enter email address"
           [(ngModel)]="email"
+          style="border-radius:10px; margin-top: 15px;"
         />
       </div>
       <div class="input-container">
@@ -29,6 +43,7 @@
           name="password"
           placeholder="Enter your password"
           [(ngModel)]="password"
+          style="border-radius:10px;"
         />
       </div>
       <div class="cta-container">
@@ -37,15 +52,22 @@
           type="submit"
           [disabled]="!canSubmit()"
           [nzLoading]="loading"
+          style="background-color:#755998;
+          color:white; border-radius:40px; width:215px;"
+        
+          
         >
           Sign in
         </button>
-        <div><a routerLink="/register">Create a new account</a></div>
-      </div>
+       
 
-      <div class="forgot-password">
-        <a href="">Forgot password?</a>
+      <div class="forgot-password" style="text-align:center;">
+        <a href="" style="text-align:center;">Forgot password?</a>
       </div>
+    </div>
     </form>
   </div>
 </div>
+<div class="registerbtn" style="text-align:center;"><a routerLink="/register" >Register</a></div>
+<p class='register-txt' style='color:white;'>An exciting place for the <br> kpop fan to shop. </p>
+</body>
