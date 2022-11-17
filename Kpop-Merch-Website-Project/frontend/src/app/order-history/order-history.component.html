@@ -1,6 +1,6 @@
 <app-header></app-header>
 <div class="order-history-container">
-  <h2>Order History</h2>
+  <h2 style="color: black; font-weight: bold;">Order History</h2>
   {{ error }}
   <nz-table #basicTable [nzData]="orders" *ngIf="orders.length > 0">
     <thead>

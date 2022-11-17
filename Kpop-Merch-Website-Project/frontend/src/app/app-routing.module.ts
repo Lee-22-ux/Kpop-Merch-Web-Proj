@@ -10,6 +10,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './auth/components/register/register.component';
 import { AuthGuardService } from './guards/auth-guard.service';
 import { AboutComponent } from './about/about.component';
+import { HomeSlideshowComponent } from './home-slideshow/home-slideshow.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -35,6 +36,10 @@ const routes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'home-slideshow',
+    component: HomeSlideshowComponent
   }
 ];
 

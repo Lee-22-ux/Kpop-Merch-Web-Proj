@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div class="product-container" *ngIf="!loading">
   <div>
     <div class="product-container__image">
@@ -34,13 +35,13 @@
       <h2 class="title">{{ product.title }}</h2>
       <div class="reviews">
         <div class="rating">
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star" nzTheme="fill"></i>
-          <i nz-icon nzType="star"></i>
+          <i nz-icon style="color: black;" nzType="star" nzTheme="fill"></i>
+          <i nz-icon style="color: black;" nzType="star" nzTheme="fill"></i>
+          <i nz-icon style="color: black;" nzType="star" nzTheme="fill"></i>
+          <i nz-icon style="color: black;" nzType="star" nzTheme="fill"></i>
+          <i nz-icon style="color: black;" nzType="star"></i>
         </div>
-        <span class="review-link"
+        <span style="padding-top: 5px; font-weight: bold;" class="review-link"
           >10 Review(s) |
           <span style="cursor: pointer">Add your review</span></span
         >
