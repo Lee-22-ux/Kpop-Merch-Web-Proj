@@ -1,8 +1,11 @@
 /*footer*/
 #mainFooter {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #000;
   color: #fff;
-  margin-top: 30px;
   height: 200px;
 }
 
