@@ -36,6 +36,7 @@ import { NzNotificationModule } from 'ng-zorro-antd/notification';
 import { NzProgressModule } from 'ng-zorro-antd/progress';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { AboutComponent } from './about/about.component';
+import { HomeSlideshowComponent } from './home-slideshow/home-slideshow.component';
 
 registerLocaleData(en);
 
@@ -54,6 +55,7 @@ registerLocaleData(en);
     FooterComponent,
     ProductCardComponent,
     AboutComponent,
+    HomeSlideshowComponent,
   ],
   imports: [
     BrowserModule,
